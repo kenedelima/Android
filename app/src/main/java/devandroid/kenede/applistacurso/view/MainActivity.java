@@ -38,23 +38,22 @@ public class MainActivity extends AppCompatActivity {
 
         dadosPessoa = "Primeiro nome: ";
         dadosPessoa += pessoa.getPrimeiroNome();
-        dadosPessoa += "Sobrenome: ";
+        dadosPessoa += " Sobrenome: ";
         dadosPessoa += pessoa.getSobreNome();
-        dadosPessoa += "Curso Desejado: ";
+        dadosPessoa += " Curso Desejado: ";
         dadosPessoa += pessoa.getCursoDesejado();
-        dadosPessoa += "Telefone de Contato: ";
+        dadosPessoa += " Telefone de Contato: ";
         dadosPessoa += pessoa.getTelefoneContato();
 
         dadosOutraPessoa = "Primeiro nome: ";
         dadosOutraPessoa += outraPessoa.getPrimeiroNome();
-        dadosOutraPessoa += "Sobrenome: ";
+        dadosOutraPessoa += " Sobrenome: ";
         dadosOutraPessoa += outraPessoa.getSobreNome();
-        dadosOutraPessoa += "Curso Desejado: ";
+        dadosOutraPessoa += " Curso Desejado: ";
         dadosOutraPessoa += outraPessoa.getCursoDesejado();
-        dadosOutraPessoa += "Telefone de Contato: ";
+        dadosOutraPessoa += " Telefone de Contato: ";
         dadosOutraPessoa += outraPessoa.getTelefoneContato();
 
-        int parada = 0;
 
     }
 }
